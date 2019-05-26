@@ -10,4 +10,4 @@ from src.ventanaini import runApp
 import sys
 
 if (__name__=='__main__'):
-  runApp(sys.argv)
+  runApp.win(sys.argv)

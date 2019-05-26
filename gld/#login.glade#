@@ -257,7 +257,7 @@
       </packing>
     </child>
     <child>
-      <object class="GtkProgressBar" id="pbu">
+      <object class="GtkLevelBar">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
       </object>
@@ -266,6 +266,9 @@
         <property name="fill">True</property>
         <property name="position">2</property>
       </packing>
+    </child>
+    <child>
+      <placeholder/>
     </child>
   </object>
 </interface>

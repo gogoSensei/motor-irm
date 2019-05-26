@@ -9,7 +9,7 @@ gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
 
 
-class winDialog(Gtk.Window):
+class Dialog(Gtk.Window):
   """Ventana emergente para vsualizar mensajes del sistema"""
   def __init__(self, tipo=None, tituloDialog='', textDialog='', func_ok=None, func_cancel=None, 
                func_yes=None, func_no=None, **kwargs):
